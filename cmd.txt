@@ -1,0 +1,1 @@
+ffmpeg -i BGA.mp4 -vf "scale=512x512:force_original_aspect_ratio=decrease,pad=iw:2*trunc(ih):(ow-iw)/2:(oh-ih)/2"
